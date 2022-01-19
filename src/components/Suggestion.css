@@ -1,0 +1,30 @@
+.suggestion{
+    text-align: center;
+    box-sizing: border-box;
+    width:400px;
+    height:300px;
+    background-color: dodgerblue;
+    color: black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    border:2px solid #e5e5e5;
+    border-radius: 0%;
+   
+}
+
+button{
+    padding:10px;
+    border-radius:20px;
+    border:1px solid #14213d;
+    background-color:white;
+    width:110px;
+    height:40px;
+    
+}
+.buttons{
+    display:flex;
+    justify-content:space-evenly;
+    margin:10px;
+}

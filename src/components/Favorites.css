@@ -1,0 +1,27 @@
+.favorites{
+    text-align: center;
+    box-sizing: border-box;
+    width:400px;
+    min-height:250px;
+    background-color: dodgerblue;
+    color: black;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    border:2px solid #e5e5e5;
+    border-radius: 0%;
+    margin:20px;
+}
+.favorite{
+    display:flex;
+    justify-content:flex-start;
+    width:350px;
+    align-items:center;
+}
+.favorite button{
+    width:15px;
+    height:15px;
+    border-radius:10px;
+    margin-right:6px;
+}
